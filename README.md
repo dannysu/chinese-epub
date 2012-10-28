@@ -1,0 +1,2 @@
+- Parses txt file in Chinese GBK format into epub
+- Wrote it for my brother who reads Chinese novels written by regular people
