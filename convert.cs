@@ -62,6 +62,7 @@ class Converter {
                     }
                 }
                 using (StreamWriter sw = new StreamWriter(output_file, true, Encoding.GetEncoding("UTF-16"))) {
+                    line = line.Replace("&", "&amp;");
                     line = line.Replace(" ", "&nbsp;");
                     sw.WriteLine(line + "<br/>");
                 }
